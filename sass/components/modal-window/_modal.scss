@@ -137,12 +137,12 @@ textarea::placeholder {
   font-size: 12px;
 }
 
-.label-box {
+.agreements {
   @include centeredFlex($type: flex);
   margin-bottom: 30px;
 }
 
-.agreements {
+.agreements__input {
   position: absolute;
   width: 1px;
   height: 1px;

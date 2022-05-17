@@ -851,7 +851,7 @@ textarea::placeholder {
   font-size: 12px;
 }
 
-.label-box {
+.agreements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -864,7 +864,7 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 
-.agreements {
+.agreements__input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -878,7 +878,7 @@ textarea::placeholder {
   overflow: hidden;
 }
 
-.agreements:checked + .agreements__icon {
+.agreements__input:checked + .agreements__icon {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -1017,7 +1017,7 @@ textarea::placeholder {
   max-width: 100%;
 }
 
-.project__title {
+.card-content__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-size: 18px;
@@ -1025,7 +1025,7 @@ textarea::placeholder {
   letter-spacing: 0.06em;
 }
 
-.project__text {
+.card-content__text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
